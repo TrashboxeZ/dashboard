@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+    font-family: 'Open Sans' , sans-serif;
+}
+.top{
+    height: 50px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.left-top{
+    float: left;
+    cursor: pointer;
+}
+.left-top:hover>span{
+    color: #555;
+}
+.left-top>img{
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 20px;
+    margin-right: 8px;
+}
+.left-top>span{
+    float: left;
+    line-height: 50px;
+    font-size: 17px;
+    color: #333;
+}
+.right-top{
+    float: right;
+    margin-right: 10px;
+}
+.right-top li{
+    display: inline-block;
+    text-align: center;
+}
+.admin{
+    float: right;
+    color:#666;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.admin img{
+    width: 30px;
+    border-radius: 80px;
+    margin-top: 10px;
+}
+
+li span{
+    float: right;
+    font-size: 13px;
+    margin-top: 17px;
+    margin-left: 8px;
+    color:#888;
+}
+.caret{
+    float: right;
+    margin-top: 8px;
+    margin-left: 7px;
+}
+.search-form{
+    position: absolute;
+    right: 225px;
+    top: 10px;
+    margin
+}
+.search-form input{
+    outline: none;
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 195px;
+    height: 30px;
+    font-size:12px;
+    padding-left: 15px;
+    margin-right: 8px;
+    
+}
+.search-form a{
+    position: absolute;
+    top: 5px;
+    right: 17px;
+    font-size: 15px;
+    color: #888;
+}
+.search-form a:hover{
+    color: #535353;
+}
+.search-form input:focus{
+    transition: width 0.15s ease-in;
+    width: 290px;
+    color:#000;
+}
+.admin:hover span{
+    color: #ccc;
+}
+.notification{
+    float: right;
+    margin-bottom: 13px;
+    margin-right: 11px;
+    font-size: 16px;
+    color: #666;
+}
+.notification:hover{
+    color: #ccc;
+}
+.navbar{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: rgb(45,53,60);
+    border: 
+}
+.user{
+    height: 80px;
+    color: #fff;
+    background-color: rgb(26,34,41);
+}
+.user img{
+    width: 35px;
+    border-radius: 30px;
+    margin: 25px;
+    margin-right: 18px;
+    float: left;
+}
+.user>span{
+    float:left;    
+    margin-top: 25px;
+    font-weight:bolder;
+    font-size: 14px;
+}
+.user>span~span{
+    margin-top: 0px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #9aa;
+    
+}
+.clear{
+    clear: both;
+}
+.title{
+    margin-top: -6px;
+    margin-bottom: 5px;
+    height: 35px;
+    color:#727c7c;
+    text-align: center;
+}
+.title span{
+    float: left;
+    margin-left:-57px;
+    font-size: 12px;
+    line-height: 35px;
+    
+}
+.navbar li{
+    height: 35px;
+    color: #eee;
+}
