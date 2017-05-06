@@ -19,7 +19,7 @@ body{
     cursor: pointer;
 }
 .left-top:hover>span{
-    color: #555;
+    color: #777;
 }
 .left-top>img{
     width: 25px;
@@ -32,7 +32,7 @@ body{
 .left-top>span{
     float: left;
     line-height: 50px;
-    font-size: 17px;
+    font-size: 19px;
     color: #333;
 }
 .right-top{
@@ -121,12 +121,15 @@ li span{
     bottom: 0;
     width: 250px;
     background-color: rgb(45,53,60);
-    border: 
+    margin-bottom: 0px;
+    font-weight: 900;
+    border-radius: 0px;
 }
 .user{
-    height: 80px;
+    height: 78px;
     color: #fff;
     background-color: rgb(26,34,41);
+    clear: both;
 }
 .user img{
     width: 35px;
@@ -144,28 +147,95 @@ li span{
 .user>span~span{
     margin-top: 0px;
     font-size: 12px;
-    font-weight: 300;
     color: #9aa;
     
 }
-.clear{
-    clear: both;
-}
 .title{
-    margin-top: -6px;
-    margin-bottom: 5px;
-    height: 35px;
+    height: 36px;
     color:#727c7c;
     text-align: center;
+    line-height: 32px;
+    clear: both;
+    padding-left: 20px;
 }
+
+
 .title span{
-    float: left;
-    margin-left:-57px;
     font-size: 12px;
-    line-height: 35px;
-    
+    float: left;
+    margin-right: 111px;
 }
-.navbar li{
-    height: 35px;
+.navbar .list div{
+    list-style: none;
+    height: 36px;
     color: #eee;
+    line-height: 35px;
+    font-size: 12px;
+    color: #959a9f;
+    cursor: pointer;
+}
+.navbar .dash{
+    background:#00acac;
+    color: aliceblue !important;
+}
+
+.navbar>.list .fa{
+    margin-right: 16px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.dash span{
+    margin-left: -4px;
+}
+.navbar>.list .caret{
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.navbar>.list div:hover:not(.dash){
+    background-color: #232a2f;
+}
+.msg{
+    float: right;
+    background-color: black;
+    color: aliceblue;
+    font-weight: 100;
+    border: 1px;
+    border-radius:10px;
+    margin-top: 11px;
+    margin-right: 20px;
+    width: 25px;
+    height: 18px;
+    font-size: 9px;
+    line-height: 17px;
+    padding-left: 7px;
+    padding-top: 1px;
+}
+.navbar>.list span.dash{
+    background:rgb(0,172,172);
+    margin-left: 6px;
+    font-weight: 900;
+    font-size: 10px;
+    border: 1px;
+    border-radius: 2px;
+    padding: 0 3px 2px 3px;
+}
+.navbar>.list>.hide-menu{
+    float: right;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50px 0px 0px 50px;
+    height: 28px;
+    margin-top: 5px;
+}
+.navbar>.list>.hide-menu i{
+    display: block;
+    text-align: left;
+    margin-right: 24px;
+    line-height: 28px;
+    margin-left: 10px;
+   text-decoration: none;
+}
+.navbar>.list>.hide-menu:hover{
+    text-decoration: none;
+    background-color: #232a2f;
 }
