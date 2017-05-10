@@ -55,7 +55,6 @@ body{
     border-radius: 80px;
     margin-top: 10px;
 }
-
 li span{
     float: right;
     font-size: 13px;
@@ -119,7 +118,7 @@ li span{
     top: 50px;
     left: 0;
     bottom: 0;
-    width: 250px;
+    width: 220px;
     background-color: rgb(45,53,60);
     margin-bottom: 0px;
     font-weight: 900;
@@ -158,8 +157,6 @@ li span{
     clear: both;
     padding-left: 20px;
 }
-
-
 .title span{
     font-size: 12px;
     float: left;
@@ -178,7 +175,6 @@ li span{
     background:#00acac;
     color: aliceblue !important;
 }
-
 .navbar>.list .fa{
     margin-right: 16px;
     font-size: 15px;
@@ -210,32 +206,181 @@ li span{
     padding-left: 7px;
     padding-top: 1px;
 }
-.navbar>.list span.dash{
+span.update{
     background:rgb(0,172,172);
     margin-left: 6px;
     font-weight: 900;
     font-size: 10px;
     border: 1px;
     border-radius: 2px;
-    padding: 0 3px 2px 3px;
+    padding: 0 5px 2px 5px;
+    color: aliceblue;
+    font-weight: 900;
 }
 .navbar>.list>.hide-menu{
     float: right;
     background-color: black;
     color: aliceblue;
     border-radius: 50px 0px 0px 50px;
-    height: 28px;
+    height: 30px;
     margin-top: 5px;
 }
 .navbar>.list>.hide-menu i{
     display: block;
     text-align: left;
     margin-right: 24px;
-    line-height: 28px;
-    margin-left: 10px;
+    line-height: 30px;
+    margin-left: 11px;
    text-decoration: none;
 }
 .navbar>.list>.hide-menu:hover{
     text-decoration: none;
     background-color: #232a2f;
+}
+.content{
+    position: fixed;
+    left: 220px;
+    top: 50px;
+    bottom: 0;
+    right: 0;
+    background-color: #d9e0e7;
+}
+.content-container{
+    margin: 25px;
+    min-height:30px;
+}
+.title-row .left-title{
+    float: left;
+    width: 50%;
+    color: rgb(124, 127, 131);
+    margin-bottom: 30px;
+}
+.left-title .header{
+    color: black;
+    font-size: 22px;
+    font-weight: 900;
+}
+.right-title{
+    float: left;
+    width: 50%;
+    text-align: right;
+    line-height: 30px;
+}
+.right-title a{
+    color: rgb(51, 51, 51);
+    font-size: 12px;
+    
+}
+.right-title span:not(.active-link){
+    color: #bbb;
+    padding: 0 5px;
+}
+.active-link{
+    color:#666!important; 
+}
+.active-link:hover{
+    text-decoration: none;
+    cursor: text;
+}
+.second-row{
+    clear: both;
+    min-height: 50px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.info{
+    display: inline-block;
+    width: 396px;
+    background-color: aqua;
+    min-height:50px;
+    color: aliceblue;
+    font-size: 12px;
+    font-weight: 900;
+    padding: 14px;
+    border-radius: 4px;
+}
+.info:not(.new-comments){
+    margin-right: 18px;
+}
+.info.visits{
+    background-color: #00acac;
+}
+.fa.icon{
+    float: right;
+    font-size: 60px;
+    opacity: 0.3;
+    margin-right: 5px;
+}
+.info-title,.info-sum,.info-desc,.info-statusBar{
+    margin-bottom: 8px;
+    opacity: 0.6;
+}
+.info-sum{
+    font-size: 25px;
+    font-weight: 400;
+    color: aliceblue;
+    opacity: 1;
+}
+.info-statusBar{
+    width: 395px;
+    height: 2px;
+    margin-left: -14px;
+    background-color:rgba(0, 0, 0, 0.2);
+    border-radius: 1px;
+    opacity: 1;
+    
+}
+span.statusBar{
+    display: block;
+    height: 2px;
+    background-color: aliceblue;
+    border-radius: 1px 0px 0px 1px ;
+}
+.visits span.statusBar{
+    width: 70.1%;
+}
+.profit span.statusBar{
+    width: 40.5%;
+}
+.new-orders span.statusBar{
+    width: 76.3%;
+}
+.new-comments span.statusBar{
+    width: 54.9%;
+}
+.info.profit{
+    background-color:#348fe2;
+}
+.info.new-orders{
+    background-color:#727cb6;
+}
+.info.new-comments{
+    background-color:#2d353c;
+}
+
+.third-row{
+    clear: both;
+    min-height: 100px;
+}
+.graphs{
+    float: left;
+    width: 68%;
+    background-color: #31383e;
+    color: aliceblue;
+    font-size: 17px;
+    padding: 25px;
+    border-radius: 4px;
+}
+.header{}
+
+
+.margin{
+    float: left;
+    width: 1%;
+    height: 200px;
+}
+.map{
+    float: left;
+    width: 31%;
+    height: 200px;
 }
