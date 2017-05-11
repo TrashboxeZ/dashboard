@@ -286,7 +286,7 @@ span.update{
     clear: both;
     min-height: 50px;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .info{
     display: inline-block;
@@ -364,16 +364,72 @@ span.statusBar{
 }
 .graphs{
     float: left;
-    width: 68%;
+    width: 65%;
     background-color: #31383e;
     color: aliceblue;
     font-size: 17px;
-    padding: 25px;
     border-radius: 4px;
 }
-.header{}
-
-
+.left-graph{
+    float: left;
+    width: 80%;
+    padding: 15px;
+}
+.left-graph .img{
+    background-image: url(/pictures/graphs.png);
+    background-size: contain;
+    height: 238px;
+    width: 100%;
+    margin: 10px
+}
+.gr-header{
+    font-size: 18px;
+}
+.gr-header2{
+    font-size: 12px;
+    color: #888;
+}
+.right-graph{
+    float: right;
+    min-height:337px;
+    background-color:#292d33;
+    width: 20%;
+    padding: 10px;
+    
+}
+.right-graph .info-sum{
+    margin-bottom: -3px;
+}
+.right-graph img{
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 46px;
+}
+.graph-info{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #777;
+    font-weight: 900;
+}
+.graph-info .info-sum {
+    float: left;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.info-color{
+    display: block;
+    float: left;
+    width: 11px;
+    height: 11px;
+    background-color: #292d33;
+    margin-right: 5px;
+    margin-top: 3px;
+    border: 2px rgb(0,170,170) solid;
+    border-radius: 50px;
+}
+.graph-info.return-visitors .info-color{
+    border-color: #348fe2;
+}
 .margin{
     float: left;
     width: 1%;
@@ -381,6 +437,46 @@ span.statusBar{
 }
 .map{
     float: left;
-    width: 31%;
-    height: 200px;
+    width: 34%;
+    min-height:337px;
+    background-color: #242a30;
+    border-radius: 4px;
+    color: aliceblue;
+}
+.map .header, .map div{
+    display: block;
+    height: 36px;
+    line-height: 38px;
+    padding-left: 10px;
+    font-size: 12px;    
+}
+.map .header{
+    font-weight: 900;
+}
+.map img{
+    width: 100%;
+}
+.map div{
+    border-top: 1px #242a30 solid;
+    background-color: #2d353c;
+}
+div.country:nth-child(5){
+    border-radius: 0px 0px 4px 4px;
+}
+.map div:hover{
+    cursor: pointer;
+    background-color: #282f35;
+}
+.map .msg{
+    width: 45px;
+    height: 17px;
+    line-height: 17px;
+    color: aliceblue;
+    font-weight: 900;    
+}
+.map .msg.color-green{
+    background-color: #00acac;
+}
+.map .msg.color-blue{
+    background-color: #348fe2;
 }
